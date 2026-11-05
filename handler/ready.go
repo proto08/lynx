@@ -12,4 +12,3 @@ func OnReady(s *discordgo.Session, r *discordgo.Ready) {
 	log.Printf("BotID: %s", user.ID)
 	log.Printf("%d guilds connected ", len(r.Guilds))
 }
-

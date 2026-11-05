@@ -50,4 +50,3 @@ func JoinVCCommand() *disgolf.Command {
 		}),
 	}
 }
-
